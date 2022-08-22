@@ -1,0 +1,48 @@
+.header h1 {
+  text-align: center;
+}
+
+.header p {
+  text-align: right;
+}
+
+#form-div {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: lavender;
+  padding: 10px;
+  display: none;
+  gap: 15px;
+  margin: 15px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#button {
+  justify-content: center;
+}
+
+.library {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.book {
+  margin-left: 25px;
+  padding: 25px;
+  border: 1px solid grey;
+}
+
+.pages {
+  color: grey;
+  font-size: smaller;
+}
